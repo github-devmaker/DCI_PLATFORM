@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       ABCDE
       NEW CONTENT Branch "CORE"
+
+      CORE EDIT
     </div>
   );
 }
