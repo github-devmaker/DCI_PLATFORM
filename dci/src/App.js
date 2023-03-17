@@ -7,7 +7,7 @@ function App() {
       ABCDE
       NEW CONTENT Branch "CORE"
 
-      MAIN EDIT
+      CORE EDIT
     </div>
   );
 }
