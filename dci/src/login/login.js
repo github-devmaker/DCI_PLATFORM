@@ -7,6 +7,7 @@ export class LoginPage extends Component {
      <>
       <div>Login</div>
       <TextField label = 'Enter your id ...' variant='outlined'/>
+      <button>เข้าสู่ระบบ</button>
       </>
     )
   }
