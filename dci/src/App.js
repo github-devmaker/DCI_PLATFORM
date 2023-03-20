@@ -1,15 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { useState } from 'react';
+import LoginPage from './login/login';
 function App() {
+  // const [isTrue,setIsTrue] = useState(true);
   return (
-    <div className="App">
-      ABCDE
-      NEW CONTENT Branch "CORE"
-
-      CORE EDIT
-    </div>
-  );
+    <>
+  <LoginPage/>
+    </>
+  )
 }
 
 export default App;
