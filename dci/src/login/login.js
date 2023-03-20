@@ -6,7 +6,7 @@ export class LoginPage extends Component {
     return (
      <>
       <div>Login</div>
-      <TextField label = 'Enter your id' variant='outlined'/>
+      <TextField label = 'Enter your id ...' variant='outlined'/>
       </>
     )
   }
