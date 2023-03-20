@@ -1,4 +1,4 @@
-import { TextField } from '@material-ui/core'
+import { Button, TextField } from '@material-ui/core'
 import React, { Component } from 'react'
 
 export class LoginPage extends Component {
@@ -7,7 +7,7 @@ export class LoginPage extends Component {
      <>
       <div>Login</div>
       <TextField label = 'Enter your id ...' variant='outlined'/>
-      <button>เข้าสู่ระบบ</button>
+      <Button variant="contained" color='primary'>Contained</Button>
       </>
     )
   }
